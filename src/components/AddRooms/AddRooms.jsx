@@ -5,6 +5,7 @@ import { GrEdit } from "react-icons/gr";
 import { MdDeleteOutline } from "react-icons/md";
 import axios from "axios";
 import toast from "react-hot-toast";
+import { Link } from "react-router-dom";
 
 const AddRooms = () => {
   const [roomType, setRoomType] = useState("Standard");
@@ -213,10 +214,10 @@ const AddRooms = () => {
             <h2 className="text-2xl font-semibold">All Rooms</h2>
 
             <button
-              onClick={viewAllInquiries}
+              // onClick={viewAllInquiries}
               className="px-5 py-2 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white font-medium shadow-lg"
             >
-              View All Inquiries
+            <Link className='mx-3' style={{ textDecoration: 'none', color: 'white' }} to="/admin/inquiries">View All Inquiries</Link>
             </button>
           </div>
 
