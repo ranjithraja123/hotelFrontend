@@ -1,0 +1,18 @@
+.register {
+    background-color: #CCD5AE;
+    margin: 0;
+    border-radius: 16px 16px 16px 16px;
+    height: auto;
+    box-shadow: 4px 4px 10px #797776;
+}
+
+/* Reset padding or margin on the body or row if necessary */
+/* body {
+    margin: 0;
+    padding: 0;
+} */
+
+.left {
+    border-radius: 16px 0px 0px 16px;
+    background-color: #F2E8C6;
+}

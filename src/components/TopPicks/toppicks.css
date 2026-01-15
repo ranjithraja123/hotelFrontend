@@ -1,0 +1,43 @@
+.topicks {
+  backdrop-filter: blur(4px) saturate(144%);
+  -webkit-backdrop-filter: blur(4px) saturate(144%);
+  background: linear-gradient(to right,
+  rgba(194, 178, 128, 0.8),
+  rgba(0, 49, 97, 0.8));
+
+
+}
+
+/* Center align navigation dots */
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-prev,
+.slick-next {
+  color: #212529 !important;
+  /* Customize arrow color */
+  z-index: 1;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  font-size: 24px;
+  /* Adjust arrow size */
+  color: #212529;
+  /* Customize arrow color */
+}
+
+
+
+
+.topicks .slick-dots li button:before {
+  color: #212529 !important;
+  /* Custom dot color */
+  font-size: 12px;
+}
+
+.topicks .slick-dots li.slick-active button:before {
+  color: #212529 !important;
+  /* Active dot color */
+}

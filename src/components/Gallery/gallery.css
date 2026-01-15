@@ -1,0 +1,23 @@
+.gallery{
+    color: antiquewhite;
+    background: none;
+    backdrop-filter: blur(4px) saturate(144%);
+    -webkit-backdrop-filter: blur(4px) saturate(144%);
+    background-color: rgba(17, 25, 40, 0.46);
+}
+
+.lightgallery{
+    border-radius: 25px;
+}
+
+
+
+
+
+.gallery-container a img {
+    transition: transform 0.3s ease;
+}
+
+.gallery-container a img:hover {
+    transform: scale(1.1);
+}

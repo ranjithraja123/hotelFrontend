@@ -1,0 +1,30 @@
+label,p {
+    font-family: "Roboto Serif", serif;
+    font-weight: 600;
+    font-size: larger;
+
+}
+
+.addroomlabel{
+    color: antiquewhite;
+}
+.addRooms{
+    background: none;
+  backdrop-filter: blur(4px) saturate(144%);
+  -webkit-backdrop-filter: blur(4px) saturate(144%);
+  background-color: rgba(17, 25, 40, 0.46);
+}
+p{
+    color: antiquewhite;
+}
+.allrooms{
+    color: antiquewhite;
+}
+
+.over{
+    background: none;
+  backdrop-filter: blur(4px) saturate(144%);
+  -webkit-backdrop-filter: blur(4px) saturate(144%);
+  background-color: rgba(17, 25, 40, 0.46);
+}
+

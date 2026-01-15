@@ -1,0 +1,10 @@
+.aboutHotel {
+  backdrop-filter: blur(4px) saturate(144%);
+  -webkit-backdrop-filter: blur(4px) saturate(144%);
+
+  background: linear-gradient(to right,
+     
+      rgba(32, 87, 129, 0.8),
+      rgba(194, 178, 128, 0.8));
+
+}

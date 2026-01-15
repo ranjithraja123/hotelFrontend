@@ -1,0 +1,60 @@
+.foot {
+    background-color: #050505;
+    color: white;
+    padding-top: 20px;
+  }
+  
+  .foot h5 {
+    color: #f8f9fa;
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .foot ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .foot ul li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .foot ul li:hover {
+    color: #17a2b8;
+  }
+  
+  .foot p {
+    margin: 5px 0;
+  }
+  
+  .footer-bottom {
+    background-color: #212529;
+    color: #868e96;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  form input {
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  

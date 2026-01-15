@@ -1,0 +1,294 @@
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Full-screen height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Places the video behind the content */
+}
+
+.banner{
+
+}
+
+.explore {
+    background-color:#134B70 ;
+    color: antiquewhite;
+}
+
+
+
+
+
+
+
+.enquire{
+  background-color:#001F3F ;
+}
+.enquire:hover {
+  background-color: skyblue;
+}
+
+.home {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 60px 0; /* Add padding for spacing */
+    text-align: center;
+  }
+  
+  .animated-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #f8f9fa;
+    margin-bottom: 30px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .search-bar {
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: none;
+    width: 300px;
+    max-width: 90%;
+  }
+  
+  .search-bar:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.7);
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .explore-button {
+    background-color: #28a745;
+  }
+  
+  .explore-button:hover {
+    background-color: #218838;
+  }
+  
+  .enquire-button {
+    background-color: #001F3F;
+  }
+  
+  .enquire-button:hover {
+    background-color: #5d9edf;
+  }
+  
+  /* Animation for fade-in effect */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+
+
+
+/* Custom style for the date range picker container */
+.date-range-picker {
+    width: 100%;
+    max-width: 400px; /* Limit the width */
+    margin: 0 auto; /* Center the date range picker */
+    padding: 0; /* Remove any padding */
+  }
+  
+  /* Style the input field inside the date picker */
+  .react-datepicker-wrapper {
+    width: 100%;
+  }
+  
+  /* Styling the input field to look like a search bar with rounded edges */
+  .react-datepicker__input-container input {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 50px; /* Fully rounded edges */
+    outline: none; /* Remove outline */
+    background-color: #fff; /* White background for the input */
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  /* Focus effect */
+  .react-datepicker__input-container input:focus {
+    border-color: #007bff; /* Blue border when focused */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect */
+    /* background-color: #ccc; */
+  }
+  
+  /* Style the calendar pop-up */
+  .react-datepicker__triangle {
+    display: none; /* Remove the triangle */
+  }
+  
+  .react-datepicker {
+    border-radius: 8px; /* Rounded calendar */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    padding: 10px;
+    background-color: #fff; /* White background for the calendar */
+    
+  }
+  
+  .react-datepicker__header {
+    background-color: #007bff; /* Blue header */
+    color: #fff;
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
+  }
+  
+  .react-datepicker__day-names {
+    font-weight: bold;
+  }
+  
+  .react-datepicker__day {
+    border-radius: 50%; /* Round days */
+    padding: 8px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  .react-datepicker__day:hover {
+    background-color: #007bff; /* Hover effect on days */
+    color: #fff;
+  }
+  
+  .react-datepicker__day--selected {
+    background-color: #007bff; /* Selected day background */
+    color: #fff;
+  }
+  
+  .react-datepicker__day--disabled {
+    background-color: #f1f1f1; /* Disabled day */
+    color: #ccc;
+  }
+  
+  /* Optional: Add spacing between the date range picker and other elements */
+  
+  /* Room Type Dropdown */
+.room-type-dropdown {
+  width: 100%;
+  max-width: 400px; /* Limit the width */
+  margin: 20px auto; /* Add some spacing and center it */
+  
+}
+
+.room-type-dropdown select {
+  width: 100%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 50px; /* Fully rounded edges */
+  outline: none; /* Remove outline */
+  background-color: transparent; /* No background */
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  appearance: none; /* Remove default dropdown arrow (for consistency) */
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23007bff' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E")
+    no-repeat right 1.5rem center / 1rem 1rem; /* Custom arrow */
+    background-color: #fff; /* White background for the input */
+
+}
+
+/* Focus effect */
+.room-type-dropdown select:focus {
+  border-color: #007bff; /* Blue border when focused */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect */
+}
+
+/* Styling the dropdown options */
+.room-type-dropdown select option {
+  font-size: 16px;
+  padding: 10px;
+}
+
+/* Add hover effect */
+.room-type-dropdown select:hover {
+  cursor: pointer;
+}
+
+
+.email-field input {
+  width: 100%;
+  max-width: 400px; /* Match width with other inputs */
+  margin: 10px auto; /* Add spacing between fields */
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 50px; /* Rounded edges */
+  outline: none; /* Remove outline */
+  background-color: transparent; /* No background */
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff; /* White background for the input */
+
+}
+
+
+
+
+/* Shared Input Styles */
+
+.phone-field input {
+  width: 100%;
+  max-width: 190px; /* Match width with other inputs */
+  margin: 10px auto; /* Add spacing between fields */
+  padding: 12px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 50px; /* Rounded edges */
+  outline: none; /* Remove outline */
+  background-color: transparent; /* No background */
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff; /* White background for the input */
+
+}
+
+/* Focus Effect */
+.email-field input:focus,
+.phone-field input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect */
+}
